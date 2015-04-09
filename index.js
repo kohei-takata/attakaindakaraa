@@ -4,8 +4,13 @@ module.exports = function (text) {
 	if (text.length !== 0){
 		console.log(text + ' あったかいんだからぁ');
 	} else {
-		while(true){
-			console.log('止まらないんだからぁ');
-		}
+		tomaranaindakaraa();
 	}
+}
+
+function tomaranaindakaraa () {
+	setTimeout(function() {
+		console.log('止まらないんだからぁ');
+		tomaranaindakaraa();
+	}, 1000);
 }
