@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "MIT",
+  "bin": "./index.js",
   "bugs": {
     "url": "https://github.com/tako-black/attakaindakaraa/issues"
   },
