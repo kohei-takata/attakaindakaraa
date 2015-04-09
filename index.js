@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 
 module.exports = function (text) {
-	console.log(text + ' あったかいんだからぁ');
+	if (text.length !== 0){
+		console.log(text + ' あったかいんだからぁ');
+	} else {
+		while(true){
+			console.log('止まらないんだからぁ');
+		}
+	}
 }
