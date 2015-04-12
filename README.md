@@ -7,7 +7,6 @@ npmにモジュールを公開してみるテストです。
 # USAGE
 
 ## speak 'attakaindakaraa'
----
 
 ```
 $ npm install attakaindakaraa -g
@@ -24,8 +23,6 @@ $ node a.js
 ```
 
 ## speak "YES!"
----
-
 ```
 $ npm install attakaindakaraa -g
 ```
@@ -42,7 +39,6 @@ $ node y.js
 ```
 
 ## speak "tomaranaindakaraa"
----
 
 ```
 $ npm install attakaindakaraa -g
@@ -54,7 +50,7 @@ a('');
 ```
 
 ```
-$ node y.js
+$ node t.js
 // 止まらないんだからぁ
 // 止まらないんだからぁ
 // 止まらないんだからぁ
