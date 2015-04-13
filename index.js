@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
 module.exports = function (text) {
-	console.log(main(text));
+	var word = main(text);
+	if (word !== null) {
+		console.log(word);
+	}
 }
 
 function main(text) {
@@ -11,6 +14,7 @@ function main(text) {
 		return text + ' あったかいんだからぁ';
 	} else {
 		tomaranaindakaraa();
+		return null;
 	}
 }
 
