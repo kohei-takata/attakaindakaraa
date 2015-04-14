@@ -6,7 +6,7 @@ npmにモジュールを公開してみるテストです。
 ---
 # USAGE
 
-## speak 'attakaindakaraa'
+## speak "attakaindakaraa"
 
 ```
 $ npm install attakaindakaraa -g
