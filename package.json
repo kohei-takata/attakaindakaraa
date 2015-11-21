@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tako-black/attakaindakaraa.git"
+    "url": "https://github.com/kohei-takata/attakaindakaraa.git"
   },
   "author": "",
   "license": "MIT",
   "bin": "./index.js",
   "bugs": {
-    "url": "https://github.com/tako-black/attakaindakaraa/issues"
+    "url": "https://github.com/kohei-takata/attakaindakaraa/issues"
   },
-  "homepage": "https://github.com/tako-black/attakaindakaraa"
+  "homepage": "https://github.com/kohei-takata/attakaindakaraa"
 }
